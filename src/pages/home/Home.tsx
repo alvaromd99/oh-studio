@@ -1,4 +1,6 @@
+import { Card } from '../../components/card/Card'
 import { Header } from '../../components/header/Header'
+import { projectDetails } from '../../contants/constants'
 import './home.css'
 
 export const Home = () => {
@@ -14,7 +16,11 @@ export const Home = () => {
 					<div className='expertise'>Design Systems</div>
 				</div>
 			</div>
-			<main></main>
+			<main>
+				{projectDetails.map((project) => (
+					<Card key={project.id} name={project.name} image={project.image} />
+				))}
+			</main>
 		</div>
 	)
 }

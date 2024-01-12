@@ -1,0 +1,16 @@
+.card {
+	position: relative;
+	border-radius: 1rem;
+	color: var(--primary);
+
+	p {
+		position: absolute;
+		font-size: 1.2rem;
+		top: 30px;
+		left: 20px;
+	}
+
+	img {
+		border-radius: inherit;
+	}
+}
