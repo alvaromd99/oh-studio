@@ -4,3 +4,8 @@
 	--light-gray: #e8e5e480;
 	--dark-gray: #7f7f7f;
 }
+
+.page {
+	min-height: 100dvh;
+	font-family: 'Roboto', sans-serif;
+}
