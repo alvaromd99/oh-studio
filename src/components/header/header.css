@@ -1,7 +1,7 @@
 .switch {
 	background-color: var(--light-gray);
 	position: absolute;
-	top: 20px;
+	top: 3rem;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;

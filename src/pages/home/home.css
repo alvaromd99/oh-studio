@@ -1,17 +1,33 @@
 .home-page {
-	padding: 7rem 2rem 2rem 2rem;
+	padding: 19rem 2rem 2rem 2rem;
 
 	.home-header {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		gap: 2rem;
+		gap: 3rem;
 
 		h1 {
 			max-width: 800px;
 			font-size: 4rem;
 			font-weight: 500;
 			text-align: center;
+			animation: fadeIn 1s forwards ease-out;
+		}
+
+		.expertise-cont {
+			display: flex;
+			gap: 1rem;
+			font-size: 1.2rem;
+			align-items: center;
+			animation: fadeIn 1s ease-out;
+			animation-delay: 0.1s;
+
+			.expertise {
+				background-color: var(--light-gray);
+				padding: 12px;
+				border-radius: 24px;
+			}
 		}
 	}
 }

@@ -14,6 +14,7 @@ export const Home = () => {
 					<div className='expertise'>Design Systems</div>
 				</div>
 			</div>
+			<main></main>
 		</div>
 	)
 }
