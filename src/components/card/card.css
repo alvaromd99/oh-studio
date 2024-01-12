@@ -2,15 +2,60 @@
 	position: relative;
 	border-radius: 1rem;
 	color: var(--primary);
+	animation: fadeIn 1s ease-out;
+	animation-delay: 0.2s;
+	overflow: hidden;
 
 	p {
 		position: absolute;
-		font-size: 1.2rem;
 		top: 30px;
 		left: 20px;
+		z-index: 2;
+		opacity: 0;
+		transition: opacity 0.5s ease-in-out;
 	}
 
-	img {
+	span {
+		--span-dimension: 3rem;
+		width: var(--span-dimension);
+		height: var(--span-dimension);
+		background-color: var(--primary);
+		display: grid;
+		place-items: center;
+		border-radius: 50%;
+		position: absolute;
+		top: 20px;
+		right: 20px;
+		z-index: 2;
+		opacity: 0;
+		transition: opacity 0.5s ease-in-out;
+	}
+
+	& > img {
 		border-radius: inherit;
+		transition: filter 0.5s ease-in-out;
+	}
+
+	&:hover > img {
+		filter: blur(8px) brightness(90%);
+	}
+
+	&:hover p {
+		opacity: 1;
+	}
+
+	&:hover span {
+		opacity: 1;
+		animation: moveIn 0.5s ease-out;
+	}
+}
+
+@keyframes moveIn {
+	from {
+		transform: translate(-10px, 10px);
+	}
+
+	to {
+		transform: translate(0px, 0px);
 	}
 }
