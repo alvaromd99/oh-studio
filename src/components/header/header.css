@@ -1,0 +1,20 @@
+.switch {
+	background-color: var(--light-gray);
+	position: absolute;
+	top: 20px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 4px;
+	border-radius: 48px;
+
+	.option {
+		color: black;
+		padding: 0.8rem 2rem;
+		border-radius: 42px;
+	}
+
+	.option.selected {
+		background-color: var(--primary);
+	}
+}
