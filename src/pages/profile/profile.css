@@ -1,0 +1,5 @@
+.profile-page {
+	h1 {
+		animation: fadeIn 1s forwards ease-out;
+	}
+}
