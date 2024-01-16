@@ -36,6 +36,12 @@ export const Profile = () => {
 					/>
 				))}
 			</div>
+			<Annotation
+				text={"Who I've worked with"}
+				type={'Clients'}
+				separation={10}
+			/>
+			<div className='clients-cont'></div>
 		</div>
 	)
 }
