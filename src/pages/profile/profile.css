@@ -25,4 +25,13 @@
 			object-fit: cover;
 		}
 	}
+
+	.experience-cont {
+		display: grid;
+		grid-template-rows: 1fr 1fr 1fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr;
+		row-gap: 4rem;
+		column-gap: 16rem;
+		margin-top: 10rem;
+	}
 }

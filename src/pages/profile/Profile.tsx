@@ -1,5 +1,7 @@
 import Annotation from '../../components/anotation/Annotation'
+import ExpBlock from '../../components/exp block/ExpBlock'
 import { Header } from '../../components/header/Header'
+import { workExperienceDetails } from '../../contants/constants'
 import './profile.css'
 
 export const Profile = () => {
@@ -23,7 +25,17 @@ export const Profile = () => {
 				separation={10}
 			/>
 			<Annotation text="Where I've worked" type='Experience' separation={15} />
-			<div className='experience-cont'></div>
+			<div className='experience-cont'>
+				{workExperienceDetails.map((work) => (
+					<ExpBlock
+						key={work.id}
+						time={work.timeWorking}
+						where={work.place}
+						position={work.position}
+						type={work.type}
+					/>
+				))}
+			</div>
 		</div>
 	)
 }
