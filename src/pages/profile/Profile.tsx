@@ -1,3 +1,4 @@
+import Annotation from '../../components/anotation/Annotation'
 import { Header } from '../../components/header/Header'
 import './profile.css'
 
@@ -16,6 +17,13 @@ export const Profile = () => {
 					alt='Profile image 2'
 				/>
 			</div>
+			<Annotation
+				text='A freelance designer based in the UK. I combine my experience in product and brand to solve problems, tell stories, and create compelling experiences.'
+				type='About'
+				separation={10}
+			/>
+			<Annotation text="Where I've worked" type='Experience' separation={15} />
+			<div className='experience-cont'></div>
 		</div>
 	)
 }

@@ -2,8 +2,6 @@
 	position: relative;
 	border-radius: 1rem;
 	color: var(--primary);
-	animation: fadeIn 1s ease-out;
-	animation-delay: 0.2s;
 	overflow: hidden;
 
 	p {

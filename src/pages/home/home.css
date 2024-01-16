@@ -20,7 +20,8 @@
 			gap: 1rem;
 			font-size: 1.2rem;
 			align-items: center;
-			animation: fadeIn 1s ease-out;
+			opacity: 0;
+			animation: fadeIn 1s ease-out forwards;
 			animation-delay: 0.1s;
 
 			.expertise {
@@ -38,6 +39,9 @@
 		grid-template-rows: repeat(2, 1fr);
 		grid-column-gap: 2rem;
 		grid-row-gap: 3rem;
+		opacity: 0;
+		animation: fadeIn 1s ease-out forwards;
+		animation-delay: 0.2s;
 
 		& > div:nth-child(1) {
 			grid-area: 1 / 1 / 2 / 2;
