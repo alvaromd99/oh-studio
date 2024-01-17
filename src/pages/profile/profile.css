@@ -33,6 +33,7 @@
 		row-gap: 4rem;
 		column-gap: 16rem;
 		margin-top: 10rem;
+		opacity: 0;
 	}
 
 	.clients-cont {
@@ -41,6 +42,7 @@
 		grid-template-columns: 1fr 1fr 1fr 1fr;
 		padding-inline: 4rem;
 		margin-top: 4rem;
+		opacity: 0;
 
 		img {
 			filter: invert(100%);

@@ -1,10 +1,17 @@
-import Annotation from '../../components/anotation/Annotation'
+import { useRef } from 'react'
+import Annotation from '../../components/annotation/Annotation'
 import ExpBlock from '../../components/exp block/ExpBlock'
 import { Header } from '../../components/header/Header'
 import { clientDetails, workExperienceDetails } from '../../constants/constants'
 import './profile.css'
+import { UseIntersectionObserver } from '../../hook/UseIntersectionObserver'
 
 export const Profile = () => {
+	const experienceRef = useRef(null)
+	const clientRef = useRef(null)
+
+	UseIntersectionObserver([experienceRef, clientRef])
+
 	return (
 		<div className='page profile-page'>
 			<Header />
@@ -25,7 +32,7 @@ export const Profile = () => {
 				separation={10}
 			/>
 			<Annotation text="Where I've worked" type='Experience' separation={15} />
-			<div className='experience-cont'>
+			<div className='experience-cont' ref={experienceRef}>
 				{workExperienceDetails.map((work) => (
 					<ExpBlock
 						key={work.id}
@@ -41,7 +48,7 @@ export const Profile = () => {
 				type={'Clients'}
 				separation={10}
 			/>
-			<div className='clients-cont'>
+			<div className='clients-cont' ref={clientRef}>
 				{clientDetails.map((client, index) => (
 					<img src={client} alt='Client logo' key={index} />
 				))}
