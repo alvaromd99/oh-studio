@@ -34,4 +34,17 @@
 		column-gap: 16rem;
 		margin-top: 10rem;
 	}
+
+	.clients-cont {
+		display: grid;
+		grid-template-rows: 1fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		padding-inline: 4rem;
+		margin-top: 4rem;
+
+		img {
+			filter: invert(100%);
+			padding: 4rem;
+		}
+	}
 }

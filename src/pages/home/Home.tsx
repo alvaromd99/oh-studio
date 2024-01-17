@@ -1,6 +1,6 @@
 import { Card } from '../../components/card/Card'
 import { Header } from '../../components/header/Header'
-import { projectDetails } from '../../contants/constants'
+import { projectDetails } from '../../constants/constants'
 import './home.css'
 
 export const Home = () => {

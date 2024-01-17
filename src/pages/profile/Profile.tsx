@@ -1,7 +1,7 @@
 import Annotation from '../../components/anotation/Annotation'
 import ExpBlock from '../../components/exp block/ExpBlock'
 import { Header } from '../../components/header/Header'
-import { workExperienceDetails } from '../../contants/constants'
+import { clientDetails, workExperienceDetails } from '../../constants/constants'
 import './profile.css'
 
 export const Profile = () => {
@@ -41,7 +41,11 @@ export const Profile = () => {
 				type={'Clients'}
 				separation={10}
 			/>
-			<div className='clients-cont'></div>
+			<div className='clients-cont'>
+				{clientDetails.map((client, index) => (
+					<img src={client} alt='Client logo' key={index} />
+				))}
+			</div>
 		</div>
 	)
 }
