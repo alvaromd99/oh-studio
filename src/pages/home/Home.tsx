@@ -1,4 +1,5 @@
 import { Card } from '../../components/card/Card'
+import Footer from '../../components/footer/Footer'
 import { Header } from '../../components/header/Header'
 import { projectDetails } from '../../constants/constants'
 import './home.css'
@@ -21,6 +22,7 @@ export const Home = () => {
 					<Card key={project.id} name={project.name} image={project.image} />
 				))}
 			</main>
+			<Footer />
 		</div>
 	)
 }
