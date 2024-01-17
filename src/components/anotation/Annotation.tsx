@@ -1,4 +1,6 @@
+import { UseIntersectionObserver } from '../../hook/UseIntersectionObserver'
 import './Annotation.css'
+import { useRef } from 'react'
 
 interface AnnotationProps {
 	text: string
@@ -11,8 +13,15 @@ export default function Annotation({
 	type,
 	separation,
 }: AnnotationProps) {
+	const divRef = useRef(null)
+
+	UseIntersectionObserver([divRef])
+
 	return (
-		<div className='annotation' style={{ marginTop: `${separation}rem` }}>
+		<div
+			ref={divRef}
+			className={`annotation `}
+			style={{ marginTop: `${separation}rem` }}>
 			<div className='type'>{type}</div>
 			<h3>{text}</h3>
 		</div>

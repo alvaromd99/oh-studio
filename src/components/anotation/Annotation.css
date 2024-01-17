@@ -13,7 +13,6 @@
 	}
 
 	.type {
-		max-width: fit-content;
 		background-color: var(--light-gray);
 		padding: 12px;
 		border-radius: 24px;

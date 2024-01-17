@@ -24,3 +24,7 @@
 		transform: translateY(0px);
 	}
 }
+
+.in-view {
+	animation: fadeIn 1s forwards ease-out;
+}
