@@ -1,0 +1,17 @@
+.back-btn {
+	position: fixed;
+	top: 2rem;
+	border-radius: 50%;
+	background-color: var(--light-gray);
+	border: none;
+	padding: 1rem;
+	cursor: pointer;
+
+	&:hover {
+		background-color: var(--secondary);
+
+		img {
+			filter: invert(100%);
+		}
+	}
+}
