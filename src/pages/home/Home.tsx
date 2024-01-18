@@ -1,11 +1,15 @@
-import { Card } from '../../components/card/Card'
-import ContactLink from '../../components/contact annotation/ContactLink'
+import Header from '../../components/header/Header'
+import Card from '../../components/card/Card'
+import ContactLink from '../../components/contact-anno/ContactLink'
 import Footer from '../../components/footer/Footer'
-import { Header } from '../../components/header/Header'
 import { projectDetails } from '../../constants/constants'
+import { UseChangePageTitle } from '../../hook/UseChangePageTitle'
 import './home.css'
 
 export const Home = () => {
+	const pageTitle = 'OH.STUDIO'
+	UseChangePageTitle(pageTitle)
+
 	return (
 		<div className='page home-page'>
 			<Header />

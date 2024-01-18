@@ -1,7 +1,7 @@
 import { useLocation } from 'wouter'
 import './header.css'
 
-export const Header = () => {
+export default function Header() {
 	const [location, setLocation] = useLocation()
 
 	const handleClick = (to: string) => {
