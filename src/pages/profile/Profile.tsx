@@ -9,7 +9,7 @@ import ExpBlock from '../../components/exp block/ExpBlock'
 import ContactLink from '../../components/contact-anno/ContactLink'
 import Footer from '../../components/footer/Footer'
 
-export const Profile = () => {
+export default function Profile() {
 	/* const pageTitle = 'Profile--OH.STUDIO'
 	UseChangePageTitle(pageTitle) */
 

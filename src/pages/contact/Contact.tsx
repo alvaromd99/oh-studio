@@ -4,7 +4,7 @@ import Header from '../../components/header/Header'
 import Footer from '../../components/footer/Footer'
 import ContactLink from '../../components/contact-anno/ContactLink'
 
-export const Contact = () => {
+export default function Contact() {
 	/* const pageTitle = 'Profile--OH.STUDIO'
 	UseChangePageTitle(pageTitle) */
 

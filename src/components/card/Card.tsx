@@ -5,13 +5,14 @@ import { useLocation } from 'wouter'
 interface CardProps {
 	name: string
 	image: string
+	url: string
 }
 
-export default function Card({ name, image }: CardProps) {
+export default function Card({ name, image, url }: CardProps) {
 	const [, setLocation] = useLocation()
 
 	const handleCardClick = () => {
-		setLocation(`/projects/${name.toLowerCase()}`)
+		setLocation(`/projects/${url}`)
 	}
 
 	return (

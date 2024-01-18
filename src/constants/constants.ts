@@ -4,24 +4,28 @@ export const projectDetails = [
 		name: 'Aire',
 		image:
 			'https://framerusercontent.com/images/kfr022WaJ8YJUyZFmdwCB3pXhs.jpg?scale-down-to=1024',
+		url: 'aire',
 	},
 	{
 		id: 2,
 		name: 'Correlated',
 		image:
 			'https://framerusercontent.com/images/QVKFKT3dyGxloXfzzpurVKNMM6M.jpg?scale-down-to=1024',
+		url: 'correlated',
 	},
 	{
 		id: 3,
 		name: 'Channel 5',
 		image:
 			'https://framerusercontent.com/images/AX9PukosNfGVcfXw3YapiYpl9g.jpg?scale-down-to=1024',
+		url: 'My5',
 	},
 	{
 		id: 4,
 		name: 'Ronald Abram',
 		image:
 			'https://framerusercontent.com/images/BAXywubxN8sAhfJg3AgGgFI.jpg?scale-down-to=1024',
+		url: 'ronald-abram',
 	},
 ]
 

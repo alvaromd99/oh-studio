@@ -6,7 +6,7 @@ import Footer from '../../components/footer/Footer'
 import { projectDetails } from '../../constants/constants'
 /* import { UseChangePageTitle } from '../../hook/UseChangePageTitle' */
 
-export const Home = () => {
+export default function Home() {
 	/* const pageTitle = 'OH.STUDIO'
 	UseChangePageTitle(pageTitle) */
 
@@ -24,7 +24,12 @@ export const Home = () => {
 			</div>
 			<main>
 				{projectDetails.map((project) => (
-					<Card key={project.id} name={project.name} image={project.image} />
+					<Card
+						key={project.id}
+						name={project.name}
+						image={project.image}
+						url={project.url}
+					/>
 				))}
 			</main>
 			<div className='contact-link'>
