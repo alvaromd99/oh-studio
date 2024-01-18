@@ -12,7 +12,7 @@ export default function ContactLink() {
 		<div className='contact'>
 			<p ref={paragraphRef}>Let's work together.</p>
 			<a href='#'>
-				<p ref={linkParagraphRef}>Get in touch.</p>
+				<span ref={linkParagraphRef}>Get in touch.</span>
 			</a>
 		</div>
 	)

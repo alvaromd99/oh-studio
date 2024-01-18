@@ -15,7 +15,8 @@
 			color: var(--light-gray);
 		}
 
-		p {
+		span {
+			display: inline-block;
 			opacity: 0;
 			animation-delay: 0.1s;
 		}
