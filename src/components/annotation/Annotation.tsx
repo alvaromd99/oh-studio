@@ -1,5 +1,5 @@
 import { UseIntersectionObserver } from '../../hook/UseIntersectionObserver'
-import './Annotation.css'
+import './annotation.css'
 import { useRef } from 'react'
 
 interface AnnotationProps {

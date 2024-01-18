@@ -14,7 +14,7 @@ export function UseIntersectionObserver(
 				})
 			},
 			{
-				threshold: 0.2,
+				threshold: 0.3,
 			}
 		)
 
