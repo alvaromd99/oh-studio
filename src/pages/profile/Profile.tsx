@@ -1,8 +1,8 @@
 import './profile.css'
 import { clientDetails, workExperienceDetails } from '../../constants/constants'
 import { useRef } from 'react'
-import { UseChangePageTitle } from '../../hook/UseChangePageTitle'
 import { UseIntersectionObserver } from '../../hook/UseIntersectionObserver'
+/* import { UseChangePageTitle } from '../../hook/UseChangePageTitle' */
 import Header from '../../components/header/Header'
 import Annotation from '../../components/annotation/Annotation'
 import ExpBlock from '../../components/exp block/ExpBlock'
@@ -10,8 +10,8 @@ import ContactLink from '../../components/contact-anno/ContactLink'
 import Footer from '../../components/footer/Footer'
 
 export const Profile = () => {
-	const pageTitle = 'Profile--OH.STUDIO'
-	UseChangePageTitle(pageTitle)
+	/* const pageTitle = 'Profile--OH.STUDIO'
+	UseChangePageTitle(pageTitle) */
 
 	const experienceRef = useRef(null)
 	const clientRef = useRef(null)
