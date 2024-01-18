@@ -5,6 +5,8 @@ import { Header } from '../../components/header/Header'
 import { clientDetails, workExperienceDetails } from '../../constants/constants'
 import './profile.css'
 import { UseIntersectionObserver } from '../../hook/UseIntersectionObserver'
+import ContactLink from '../../components/contact annotation/ContactLink'
+import Footer from '../../components/footer/Footer'
 
 export const Profile = () => {
 	const experienceRef = useRef(null)
@@ -53,6 +55,8 @@ export const Profile = () => {
 					<img src={client} alt='Client logo' key={index} />
 				))}
 			</div>
+			<ContactLink />
+			<Footer />
 		</div>
 	)
 }
