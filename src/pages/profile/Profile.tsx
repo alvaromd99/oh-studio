@@ -55,7 +55,9 @@ export const Profile = () => {
 					<img src={client} alt='Client logo' key={index} />
 				))}
 			</div>
-			<ContactLink />
+			<div className='contact-link'>
+				<ContactLink />
+			</div>
 			<Footer />
 		</div>
 	)

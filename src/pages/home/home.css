@@ -56,4 +56,8 @@
 			grid-area: 2 / 2 / 3 / 3;
 		}
 	}
+
+	.contact-link {
+		padding: 16rem;
+	}
 }

@@ -23,7 +23,9 @@ export const Home = () => {
 					<Card key={project.id} name={project.name} image={project.image} />
 				))}
 			</main>
-			<ContactLink />
+			<div className='contact-link'>
+				<ContactLink />
+			</div>
 			<Footer />
 		</div>
 	)
