@@ -7,7 +7,7 @@
 		top: 0;
 		left: 0;
 		width: 100%;
-		box-shadow: 0 0 30px 30px white;
+		box-shadow: var(--box-shadow);
 		pointer-events: none;
 		z-index: 9;
 	}
@@ -22,12 +22,14 @@
 		max-height: 38rem;
 		object-fit: cover;
 		border-radius: 12px;
+		margin-block: 1rem;
 	}
 
 	.double-img {
 		display: flex;
 		align-items: center;
 		gap: 1rem;
+		margin-block: 1rem;
 
 		img {
 			width: calc((100% - 1rem) / 2);

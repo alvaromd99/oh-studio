@@ -3,6 +3,8 @@
 	--secondary: #000;
 	--light-gray: #e8e5e480;
 	--dark-gray: #7f7f7f;
+
+	--box-shadow: 0 0 50px 50px white;
 }
 
 .page {
