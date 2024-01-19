@@ -1,5 +1,14 @@
 import './overview.css'
 
-export default function Overview() {
-	return <div>Overview</div>
+interface OverviewProps {
+	text: string
+}
+
+export default function Overview({ text }: OverviewProps) {
+	return (
+		<div className='overview'>
+			<p>Overview</p>
+			<p>{text}</p>
+		</div>
+	)
 }

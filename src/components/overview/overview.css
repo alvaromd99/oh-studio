@@ -1,0 +1,13 @@
+.overview {
+	width: 100%;
+	margin-block: 4rem;
+
+	& p:nth-child(1) {
+		margin-bottom: 0.8rem;
+		color: var(--dark-gray);
+	}
+
+	& p:nth-child(2) {
+		max-width: 40%;
+	}
+}
