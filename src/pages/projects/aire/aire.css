@@ -1,5 +1,15 @@
 .aire {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+	padding: 12rem 3rem 2rem 3rem;
+
+	.big-img {
+		width: 100%;
+		max-height: 38rem;
+		object-fit: cover;
+		border-radius: 12px;
+	}
+
+	main {
+		width: 100%;
+		margin-top: 10rem;
+	}
 }
