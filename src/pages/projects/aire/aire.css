@@ -1,6 +1,17 @@
 .aire {
 	padding: 12rem 3rem 2rem 3rem;
 
+	&::before {
+		content: '';
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		box-shadow: 0 0 30px 30px white;
+		pointer-events: none;
+		z-index: 9;
+	}
+
 	main {
 		width: 100%;
 		margin-top: 10rem;
