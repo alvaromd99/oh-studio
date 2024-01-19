@@ -5,6 +5,8 @@
 	--dark-gray: #7f7f7f;
 
 	--box-shadow: 0 0 50px 50px white;
+	--custom-animation: fadeIn 1s forwards ease-out;
+	--custom-delay: 0.2s;
 }
 
 .page {

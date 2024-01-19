@@ -10,11 +10,16 @@
 		font-weight: 500;
 		text-wrap: pretty;
 		padding-inline: 10rem;
+		opacity: 0;
+		animation: var(--custom-animation);
 	}
 
 	.name {
 		background-color: var(--light-gray);
 		padding: 12px;
 		border-radius: 24px;
+		opacity: 0;
+		animation: var(--custom-animation);
+		animation-delay: var(--custom-delay);
 	}
 }

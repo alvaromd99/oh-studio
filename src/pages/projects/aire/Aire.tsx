@@ -3,6 +3,8 @@ import BackBtn from '../../../components/btn/BackBtn'
 import Title from '../../../components/title/Title'
 import ProjectInfo from '../../../components/info/ProjectInfo'
 import Overview from '../../../components/overview/Overview'
+import ContactLink from '../../../components/contact-anno/ContactLink'
+import Footer from '../../../components/footer/Footer'
 
 export default function Aire() {
 	return (
@@ -55,6 +57,40 @@ export default function Aire() {
 						alt='Aire image 6'
 					/>
 				</div>
+				<img
+					src='https://framerusercontent.com/images/DmSvG2vRgGHkjr2izJsUcpWPs.jpg?scale-down-to=2048'
+					alt='Aire image 7'
+					className='big-img'
+				/>
+				<img
+					src='https://framerusercontent.com/images/XyMJtcTk4JgOgG8gvE7Xo9ssy3E.gif'
+					alt='Aire gif 1'
+					className='big-img'
+				/>
+				<img
+					src='https://framerusercontent.com/images/pRhnMswaeFkyMfJX0Hwwh0QTQ.jpg?scale-down-to=2048'
+					alt='Aire img 8'
+					className='big-img'
+				/>
+				<img
+					src='https://framerusercontent.com/images/3wAtzo0qvmxyJhsWXvruyTZtRU.jpg?scale-down-to=2048'
+					alt='Aire img 9'
+					className='big-img'
+				/>
+				<div className='double-img'>
+					<img
+						src='https://framerusercontent.com/images/XaVdbFmdnBjuIAO6uR2K4xlQ.jpg?scale-down-to=2048'
+						alt='Aire img 10'
+					/>
+					<img
+						src='https://framerusercontent.com/images/i3WtVhahDcZd4OywmX9rXkq7yPo.jpg?scale-down-to=2048'
+						alt='Aire img 11'
+					/>
+				</div>
+				<div className='contact-link'>
+					<ContactLink />
+				</div>
+				<Footer />
 			</main>
 		</div>
 	)
