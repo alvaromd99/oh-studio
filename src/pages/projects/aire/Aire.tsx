@@ -20,10 +20,10 @@ export default function Aire() {
 					className='big-img'
 				/>
 				<ProjectInfo
-					client={'Aire'}
-					studio={'OH&CO'}
-					role={'Creative Director'}
-					focus={'Brand Identity'}
+					client='Aire'
+					studio='OH&CO'
+					role='Creative Director'
+					focus='Brand Identity'
 				/>
 				<div className='double-img'>
 					<img
