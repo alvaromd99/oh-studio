@@ -4,11 +4,15 @@ import Card from '../../components/card/Card'
 import ContactLink from '../../components/contact-anno/ContactLink'
 import Footer from '../../components/footer/Footer'
 import { projectDetails } from '../../constants/constants'
+import { useEffect } from 'react'
 /* import { UseChangePageTitle } from '../../hook/UseChangePageTitle' */
 
 export default function Home() {
 	/* const pageTitle = 'OH.STUDIO'
 	UseChangePageTitle(pageTitle) */
+	useEffect(() => {
+		window.scrollTo(0, 0)
+	}, [])
 
 	return (
 		<div className='page home-page'>
