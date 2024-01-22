@@ -5,8 +5,13 @@ import ProjectInfo from '../../components/info/ProjectInfo'
 import Overview from '../../components/overview/Overview'
 import ContactLink from '../../components/contact-link/ContactLink'
 import Footer from '../../components/footer/Footer'
+import { useEffect } from 'react'
 
 export default function Correlated() {
+	useEffect(() => {
+		window.scrollTo(0, 0)
+	}, [])
+
 	return (
 		<div className='page project correlated'>
 			<BackBtn />
