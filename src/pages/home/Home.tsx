@@ -1,7 +1,7 @@
 import './home.css'
 import Header from '../../components/header/Header'
 import Card from '../../components/card/Card'
-import ContactLink from '../../components/contact-anno/ContactLink'
+import ContactLink from '../../components/contact-link/ContactLink'
 import Footer from '../../components/footer/Footer'
 import { projectDetails } from '../../constants/constants'
 import { useEffect } from 'react'

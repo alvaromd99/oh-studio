@@ -6,7 +6,7 @@ import { UseIntersectionObserver } from '../../hook/UseIntersectionObserver'
 import Header from '../../components/header/Header'
 import Annotation from '../../components/annotation/Annotation'
 import ExpBlock from '../../components/exp block/ExpBlock'
-import ContactLink from '../../components/contact-anno/ContactLink'
+import ContactLink from '../../components/contact-link/ContactLink'
 import Footer from '../../components/footer/Footer'
 
 export default function Profile() {

@@ -1,9 +1,18 @@
 .aire {
-	padding: 12rem 3rem 2rem 3rem;
+	padding-top: 12rem;
 }
 
 .correlated {
-	padding: 12rem 3rem 2rem 3rem;
+	padding-top: 12rem;
+}
+
+.my5 {
+	padding-top: 12rem;
+}
+
+.project {
+	padding-inline: 3rem;
+	padding-bottom: 2rem;
 }
 
 .project::before {

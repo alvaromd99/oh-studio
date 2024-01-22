@@ -3,7 +3,7 @@ import BackBtn from '../../components/btn/BackBtn'
 import Title from '../../components/title/Title'
 import ProjectInfo from '../../components/info/ProjectInfo'
 import Overview from '../../components/overview/Overview'
-import ContactLink from '../../components/contact-anno/ContactLink'
+import ContactLink from '../../components/contact-link/ContactLink'
 import Footer from '../../components/footer/Footer'
 
 export default function Correlated() {

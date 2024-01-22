@@ -119,3 +119,62 @@ export const clientDetails = [
 	'https://framerusercontent.com/images/PCQIe7uLIcRFBG5bKFWCX3niBek.png?scale-down-to=512',
 	'https://framerusercontent.com/images/8w3YBn3xA3P0u5w43PGhPo1jpYA.png?scale-down-to=512',
 ]
+
+export const My5ProjectImages = [
+	{
+		src: 'https://framerusercontent.com/images/AX9PukosNfGVcfXw3YapiYpl9g.jpg?scale-down-to=1024',
+		alt: 'My5 image 0',
+	},
+	{
+		src: 'https://framerusercontent.com/images/jpsrtmn5ap2vvXaeFrEIH8inMSU.jpg?scale-down-to=1024',
+		alt: 'My5 image 1',
+	},
+	{
+		src: 'https://framerusercontent.com/images/0KA0uiQb1NQkiRNqhWFBA94M6c.jpg',
+		alt: 'My5 image 2',
+	},
+	{
+		src: 'https://framerusercontent.com/images/LSoDC8ZFPVuElz9MuIiCBy074.jpg',
+		alt: 'My5 image 3',
+	},
+	{
+		src: 'https://framerusercontent.com/images/1bRUMuQGAUplFne04eTlsDVpfQo.jpg',
+		alt: 'My5 image 4',
+	},
+	{
+		src: 'https://framerusercontent.com/images/lJE1pT1oMrucwvL3GnCeJh7KM.jpg?scale-down-to=1024',
+		alt: 'My5 image 5',
+	},
+	{
+		src: 'https://framerusercontent.com/images/AOvySvXQ6r9DqoxddAF7AqkblUE.jpg?scale-down-to=1024',
+		alt: 'My5 image 6',
+	},
+	{
+		src: 'https://framerusercontent.com/images/x7Tlx2PrrARHFwNS2AnmQ1tyeUM.jpg',
+		alt: 'My5 image 7',
+	},
+	{
+		src: 'https://framerusercontent.com/images/hpIuUz2xC23ORVJQSwmbGjDk.jpg?scale-down-to=1024',
+		alt: 'My5 image 8',
+	},
+	{
+		src: 'https://framerusercontent.com/images/Yntl0o6Eyr2t919TsaJoiLBF78.jpg',
+		alt: 'My5 image 9',
+	},
+	{
+		src: 'https://framerusercontent.com/images/kesWJRzDkSLkSphTLLmr0NtmE.jpg',
+		alt: 'My5 image 10',
+	},
+	{
+		src: 'https://framerusercontent.com/images/MEXS8GkZVeeiTZ3C2pmNw6k0.jpg',
+		alt: 'My5 image 11',
+	},
+	{
+		src: 'https://framerusercontent.com/images/R1eCvxfLzWsDDDFfiCefJ2qOOI.jpg',
+		alt: 'My5 image 12',
+	},
+	{
+		src: 'https://framerusercontent.com/images/7o4595twkcrtmzD2h79WFul53g.jpg',
+		alt: 'My5 image 13',
+	},
+]
