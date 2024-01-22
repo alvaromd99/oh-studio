@@ -178,3 +178,58 @@ export const My5ProjectImages = [
 		alt: 'My5 image 13',
 	},
 ]
+
+export const RonaldAbramProjectImages = [
+	{
+		src: 'https://framerusercontent.com/modules/assets/Ibg2qaJfhWWgXfDgOI3At8X33Oo~OOe-ybKyyiB9Yof7q-luX4OTp_i5mJ4rC9Zm85u8Drw.mp4',
+		alt: '',
+	},
+	{
+		src: 'https://framerusercontent.com/images/yoldrzeYkHYdQSQMr82toErhFuc.jpg',
+		alt: 'Ronald Abram image 0',
+	},
+	{
+		src: 'https://framerusercontent.com/images/mM8gWL8EZhuRFFH9zKiCjeydL2M.jpg',
+		alt: 'Ronald Abram image 1',
+	},
+	{
+		src: 'https://framerusercontent.com/images/PYK92ERzf6TBoL0o7RHEbUjl0.jpg',
+		alt: 'Ronald Abram image 2',
+	},
+	{
+		src: 'https://framerusercontent.com/images/yUBwN4cGXcV7prUYFZkecjj0.jpg',
+		alt: 'Ronald Abram image 3',
+	},
+	{
+		src: 'https://framerusercontent.com/images/5w8jjH7XOWjTGCUGjlS64opM7E.jpg',
+		alt: 'Ronald Abram image 4',
+	},
+	{
+		src: 'https://framerusercontent.com/images/MJ7bMMlAOq861TmG9oRLJde8U.jpg',
+		alt: 'Ronald Abram image 5',
+	},
+	{
+		src: 'https://framerusercontent.com/images/acSEGCDjtyv11F6Tu4u13jg3U.jpg',
+		alt: 'Ronald Abram image 6',
+	},
+	{
+		src: 'https://framerusercontent.com/images/ClvUaGQRcQmltKtJs4rmnPkRIoY.gif',
+		alt: 'Ronald Abram image 7',
+	},
+	{
+		src: 'https://framerusercontent.com/images/PsFtrMsfil25WM1W3mnUe2okoI.jpg?scale-down-to=2048',
+		alt: 'Ronald Abram image 8',
+	},
+	{
+		src: 'https://framerusercontent.com/images/r6iesplPUVaNWHGp9wkV51rK9Y.jpg',
+		alt: 'Ronald Abram image 9',
+	},
+	{
+		src: 'https://framerusercontent.com/images/FseFmzFiyWaYDrJAXdokR2Dr0.jpg',
+		alt: 'Ronald Abram image 10',
+	},
+	{
+		src: 'https://framerusercontent.com/images/ysuIdxwL4m7kIB9JVcHuKgYm8.jpg',
+		alt: 'Ronald Abram image 11',
+	},
+]
