@@ -1,16 +1,21 @@
-import BigImage from '../../components/big-image/BigImage'
-import BigVideo from '../../components/big-video/BigVideo'
-import BackBtn from '../../components/btn/BackBtn'
-import ContactLink from '../../components/contact-link/ContactLink'
-import DoubleImage from '../../components/double-img/DoubleImage'
-import Footer from '../../components/footer/Footer'
-import ProjectInfo from '../../components/info/ProjectInfo'
-import Overview from '../../components/overview/Overview'
-import Title from '../../components/title/Title'
+import Title from '@/title/Title'
+import BackBtn from '@/btn/BackBtn'
+import Overview from '@/overview/Overview'
+import BigImage from '@/big-image/BigImage'
+import BigVideo from '@/big-video/BigVideo'
+import ProjectInfo from '@/info/ProjectInfo'
+import DoubleImage from '@/double-img/DoubleImage'
+import ContactLink from '@/contact-link/ContactLink'
+import Footer from '@/footer/Footer'
 import { RonaldAbramProjectImages as images } from '../../constants/constants'
 import './projects.css'
+import { useEffect } from 'react'
 
 export default function RonaldAbram() {
+	useEffect(() => {
+		window.scrollTo(0, 0)
+	}, [])
+
 	return (
 		<div className='page project ronald'>
 			<BackBtn />

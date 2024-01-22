@@ -1,10 +1,10 @@
 import './projects.css'
-import BackBtn from '../../components/btn/BackBtn'
-import Title from '../../components/title/Title'
-import ProjectInfo from '../../components/info/ProjectInfo'
-import Overview from '../../components/overview/Overview'
-import ContactLink from '../../components/contact-link/ContactLink'
-import Footer from '../../components/footer/Footer'
+import BackBtn from '@/btn/BackBtn'
+import Title from '@/title/Title'
+import ProjectInfo from '@/info/ProjectInfo'
+import Overview from '@/overview/Overview'
+import ContactLink from '@/contact-link/ContactLink'
+import Footer from '@/footer/Footer'
 import { useEffect } from 'react'
 
 export default function Correlated() {

@@ -1,13 +1,13 @@
 import { useEffect } from 'react'
-import BigImage from '../../components/big-image/BigImage'
-import BackBtn from '../../components/btn/BackBtn'
-import Title from '../../components/title/Title'
+import Title from '@/title/Title'
+import BackBtn from '@/btn/BackBtn'
+import BigImage from '@/big-image/BigImage'
+import Overview from '@/overview/Overview'
+import ProjectInfo from '@/info/ProjectInfo'
+import DoubleImage from '@/double-img/DoubleImage'
+import ContactLink from '@/contact-link/ContactLink'
+import Footer from '@/footer/Footer'
 import { My5ProjectImages as images } from '../../constants/constants'
-import ProjectInfo from '../../components/info/ProjectInfo'
-import Overview from '../../components/overview/Overview'
-import DoubleImage from '../../components/double-img/DoubleImage'
-import ContactLink from '../../components/contact-link/ContactLink'
-import Footer from '../../components/footer/Footer'
 
 export default function My5() {
 	useEffect(() => {
