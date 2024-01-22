@@ -1,10 +1,10 @@
-import './aire.css'
-import BackBtn from '../../../components/btn/BackBtn'
-import Title from '../../../components/title/Title'
-import ProjectInfo from '../../../components/info/ProjectInfo'
-import Overview from '../../../components/overview/Overview'
-import ContactLink from '../../../components/contact-anno/ContactLink'
-import Footer from '../../../components/footer/Footer'
+import './projects.css'
+import BackBtn from '../../components/btn/BackBtn'
+import Title from '../../components/title/Title'
+import ProjectInfo from '../../components/info/ProjectInfo'
+import Overview from '../../components/overview/Overview'
+import ContactLink from '../../components/contact-anno/ContactLink'
+import Footer from '../../components/footer/Footer'
 import { useEffect } from 'react'
 
 export default function Aire() {
@@ -13,7 +13,7 @@ export default function Aire() {
 	}, [])
 
 	return (
-		<div className='page aire'>
+		<div className='page project aire'>
 			<BackBtn />
 			<Title text='A better way to deal with every day.' project='Aire' />
 			<main>

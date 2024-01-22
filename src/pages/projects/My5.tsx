@@ -1,4 +1,4 @@
-import BackBtn from '../../../components/btn/BackBtn'
+import BackBtn from '../../components/btn/BackBtn'
 
 export default function My5() {
 	return (
