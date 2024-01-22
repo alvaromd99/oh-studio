@@ -10,6 +10,10 @@
 	padding-top: 12rem;
 }
 
+.ronald {
+	padding-top: 12rem;
+}
+
 .project {
 	padding-inline: 3rem;
 	padding-bottom: 2rem;
@@ -36,7 +40,7 @@ main {
 
 .big-img {
 	width: 100%;
-	max-height: 38rem;
+	height: 50rem;
 	object-fit: cover;
 	border-radius: 12px;
 	margin-block: 1rem;
@@ -49,9 +53,19 @@ main {
 	margin-block: 1rem;
 
 	img {
+		height: 40rem;
 		width: calc((100% - 1rem) / 2);
 		border-radius: 12px;
 		object-fit: cover;
+		object-position: center center;
+	}
+
+	.small-video {
+		height: 40rem;
+		border-radius: 12px;
+		width: calc((100% - 1rem) / 2);
+		object-fit: cover;
+		object-position: center center;
 	}
 }
 
