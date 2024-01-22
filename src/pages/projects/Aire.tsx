@@ -40,11 +40,7 @@ export default function Aire() {
 						alt='Aire image 3'
 					/>
 				</div>
-				<Overview
-					text={
-						'I worked with Aire to develop a brand that firmly positions them as a premium lifestyle brand. The name Aire was inspired by the companies conception in Aire Street Workshops, in addition to aligning well with how the product makes you feel. The wordmark has been designed to convey the feeling of ease and simplicity whilst encapsulating a premium feel. Aire believes in the power of CBD to help people manage the day to day a little better — so I developed a strap-line which embodied that message. A better way to deal with every day.'
-					}
-				/>
+				<Overview text='I worked with Aire to develop a brand that firmly positions them as a premium lifestyle brand. The name Aire was inspired by the companies conception in Aire Street Workshops, in addition to aligning well with how the product makes you feel. The wordmark has been designed to convey the feeling of ease and simplicity whilst encapsulating a premium feel. Aire believes in the power of CBD to help people manage the day to day a little better — so I developed a strap-line which embodied that message. A better way to deal with every day.' />
 				<img
 					src={
 						'https://framerusercontent.com/images/1ZNxQVbQdraZjjmKyBwxrioAwvc.jpg?scale-down-to=2048'
