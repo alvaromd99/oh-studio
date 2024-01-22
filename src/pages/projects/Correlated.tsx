@@ -3,6 +3,8 @@ import BackBtn from '../../components/btn/BackBtn'
 import Title from '../../components/title/Title'
 import ProjectInfo from '../../components/info/ProjectInfo'
 import Overview from '../../components/overview/Overview'
+import ContactLink from '../../components/contact-anno/ContactLink'
+import Footer from '../../components/footer/Footer'
 
 export default function Correlated() {
 	return (
@@ -75,6 +77,25 @@ export default function Correlated() {
 						alt='Correlated image 11'
 					/>
 				</div>
+				<img
+					src='https://framerusercontent.com/images/7FjwLrD1PXJxWNaJnIs1otLhFI.jpg?scale-down-to=2048'
+					alt='Correlated image 12'
+					className='big-img'
+				/>
+				<div className='double-img'>
+					<img
+						src='https://framerusercontent.com/images/QrI9yPy4AnRCf2rL3ZPEXaqeD2A.jpg'
+						alt='Correlated image 13'
+					/>
+					<img
+						src='https://framerusercontent.com/images/aiUDhsoiJ5PXdrBkmKQaCCyt8NE.jpg'
+						alt='Correlated image 14'
+					/>
+				</div>
+				<div className='contact-link'>
+					<ContactLink />
+				</div>
+				<Footer />
 			</main>
 		</div>
 	)
